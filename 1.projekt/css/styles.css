@@ -1,0 +1,40 @@
+
+
+body {
+    color: aliceblue;
+    
+}
+
+.orderlist {
+    color: blue;
+}
+
+p {
+    color: red;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: dashed;
+    text-transform: uppercase;
+    text-shadow: 1cm;
+}
+
+#duha1 {
+    color: rgb(75, 0, 130);
+}
+#duha2 {
+    color: rgb(0, 0, 255);
+}
+#duha3 {
+    color: rgb(0, 128, 0);
+}
+#duha4 {
+    color: rgb(255, 255, 0);
+}
+#duha5 {
+    color: rgb(255, 127, 0);
+}
+#duha6 {
+    color: rgb(255, 0, 0);
+}
