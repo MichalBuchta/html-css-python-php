@@ -1,0 +1,53 @@
+:root {
+--text: #faff00;
+--background: #211d1d;
+--primary: #00ffed;
+--secondary: #000000;
+--accent: #2600ff;    
+}
+
+body {
+    background-color: var(--background);
+}
+
+.Navigace {
+    color: var(--text);
+    background-color: var(--background);
+    margin-left: auto;
+    padding-left: 42%;
+    font-size: 150%;
+}
+.Navigace a {
+    color: var(--text);
+}
+.Navigace a:hover{
+    color: var(--primary);
+}
+
+#lajna {
+    background-color: #3b3535;
+    height: 3px;
+    border: none;
+    width: 100%;
+}
+
+body {
+    color: var(--text);
+}
+
+footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 1;
+}
+
+.lajna2 {
+    position: absolute;
+    background-color: #3b3535;
+    height: 3px;
+    border: none;
+    bottom: 18%;
+    left: 0;
+    width: 100%;
+}

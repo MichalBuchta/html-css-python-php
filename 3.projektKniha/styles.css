@@ -2,36 +2,83 @@
     background-color: #0066ff;
     top: 0;
     width: 100%;
-    color: #000000;
+    color: #ffffff;
     list-style-position: inside;
     text-align: center;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-size: larger;
+    list-style-type: none;
 }
 
-#knizky {
-    color: #000000;
+
+
+#knizky, #kontakt, #domu {
+    color: #ffffff;
     font-size: larger;
-}
-#knizky:hover {
-    color: #ff0000;
+    display: inline-block;
+    margin: 0 10px;
 }
 
-#kontakt {
-    color: #000000;
-    font-size: larger;
-}
-#kontakt:hover {
-    color: #ff0000;
-}
-
-#domu {
-    color: #000000;
-    font-size: larger;
-}
-#domu:hover {
+#knizky:hover, #kontakt:hover, #domu:hover {
     color: #ff0000;
 }
 
 #nadpis {
     color: #000000;
-    bottom: 100%;
+    bottom: 0%;
+    background-color: white;
+    display: table;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+}
+
+.Autor {
+    color: #000000;
+    background-color: white;
+    font-size: larger;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://kvantovacesta.cz/data/filecache/ba/zasadni_knihy_osobni_rozvoj.jpg);
+}
+
+.knihy {
+    background-color: white;
+    display: table;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    font-size: larger;
+}
+
+.telo {
+    background-color: white;
+    display: table;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.textnz {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
 }

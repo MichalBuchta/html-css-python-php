@@ -1,0 +1,17 @@
+body {
+    background-color: #000000;
+    max-width: 500px;
+    color: blueviolet;
+}
+
+p {
+    margin: auto;
+    color: aqua;
+    font-size: 20px;
+}
+
+.list {
+    list-style-type: none;
+    margin-left: 50%;
+    padding-left: 50%;
+}
